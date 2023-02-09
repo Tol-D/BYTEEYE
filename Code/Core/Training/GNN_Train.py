@@ -59,7 +59,7 @@ global rawadjs, rawfeatures,rawlabels,numbers,idx_train,idx_test,id
 def preparation():
     global rawadjs, rawfeatures, rawlabels, numbers, idx_train, idx_test, id
     # Load data
-    # rawadjs, rawfeatures, numbers = dl2.load_data()#feature extraction important
+    rawadjs, rawfeatures, numbers = dl2.load_data()#feature extraction important
     np.load.__defaults__ = (None, True, True, 'ASCII')  # for higher numpy version
     print("new scp reentrancy")
     with open('data/internal_result/adjs_scpre.npy', 'rb') as f:
