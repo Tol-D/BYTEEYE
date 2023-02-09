@@ -1,0 +1,199 @@
+{
+    "contract":"",
+    "bytecode":"608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630ed080eb14610043575b005b34801561004f57600080fd5b506100b0600480360381019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803590602001909291908035906020019082018035906020019190919293919293905050506100ca565b604051808215151515815260200191505060405180910390f35b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561012757600080fd5b8573ffffffffffffffffffffffffffffffffffffffff16858590858560405180838380828437820191505092505050600060405180830381858888f193505050509050959450505050505600",
+    "runtime bytecode":"['6080', '6040', '52', '6004', '36', '10', '610041', '57', '6000', '35', '7c0100000000000000000000000000000000000000000000000000000000', '90', '04', '63ffffffff', '16', '80', '630ed080eb', '14', '610043', '57', '5b', '00', '5b', '34', '80', '15', '61004f', '57', '6000', '80', 'fd', '5b', '50', '6100b0', '6004', '80', '36', '03', '81', '01', '90', '80', '80', '35', '73ffffffffffffffffffffffffffffffffffffffff', '16', '90', '6020', '01', '90', '92', '91', '90', '80', '35', '90', '6020', '01', '90', '92', '91', '90', '80', '35', '90', '6020', '01', '90', '92', '91', '90', '80', '35', '90', '6020', '01', '90', '82', '01', '80', '35', '90', '6020', '01', '91', '90', '91', '92', '93', '91', '92', '93', '90', '50', '50', '50', '6100ca', '56', '5b', '6040', '51', '80', '82', '15', '15', '15', '15', '81', '52', '6020', '01', '91', '50', '50', '6040', '51', '80', '91', '03', '90', 'f3', '5b', '6000', '80', '6000', '90', '54', '90', '610100', '0a', '90', '04', '73ffffffffffffffffffffffffffffffffffffffff', '16', '73ffffffffffffffffffffffffffffffffffffffff', '16', '33', '73ffffffffffffffffffffffffffffffffffffffff', '16', '14', '15', '15', '610127', '57', '6000', '80', 'fd', '5b', '85', '73ffffffffffffffffffffffffffffffffffffffff', '16', '85', '85', '90', '85', '85', '6040', '51', '80', '83', '83', '80', '82', '84', '37', '82', '01', '91', '50', '50', '92', '50', '50', '50', '6000', '6040', '51', '80', '83', '03', '81', '85', '88', '88', 'f1', '93', '50', '50', '50', '50', '90', '50', '95', '94', '50', '50', '50', '50', '50', '56', '00']",
+    "number of basic blocks":12,
+    "block index":"[(0, 0), (1, 8), (2, 20), (3, 22), (4, 28), (5, 31), (6, 98), (7, 121), (8, 144), (9, 147), (10, 200), (11, 201)]",
+    "cfg":[
+        [
+            {
+                "block number":0,
+                "index":0,
+                "length":8,
+                "easyJump":true,
+                "resolved":false,
+                "onlyAmode":true,
+                "bytecode":"['6080', '6040', '52', '6004', '36', '10', '610041', '57']"
+            },
+            {
+                "block number":1,
+                "index":13,
+                "length":12,
+                "easyJump":true,
+                "resolved":false,
+                "onlyAmode":true,
+                "bytecode":"['6000', '35', '7c0100000000000000000000000000000000000000000000000000000000', '90', '04', '63ffffffff', '16', '80', '630ed080eb', '14', '610043', '57']"
+            },
+            {
+                "block number":2,
+                "index":65,
+                "length":2,
+                "easyJump":true,
+                "resolved":false,
+                "onlyAmode":true,
+                "bytecode":"['5b', '00']"
+            },
+            {
+                "block number":3,
+                "index":67,
+                "length":6,
+                "easyJump":true,
+                "resolved":false,
+                "onlyAmode":true,
+                "bytecode":"['5b', '34', '80', '15', '61004f', '57']"
+            },
+            {
+                "block number":4,
+                "index":75,
+                "length":3,
+                "easyJump":true,
+                "resolved":false,
+                "onlyAmode":true,
+                "bytecode":"['6000', '80', 'fd']"
+            },
+            {
+                "block number":5,
+                "index":79,
+                "length":67,
+                "easyJump":true,
+                "resolved":false,
+                "onlyAmode":true,
+                "bytecode":"['5b', '50', '6100b0', '6004', '80', '36', '03', '81', '01', '90', '80', '80', '35', '73ffffffffffffffffffffffffffffffffffffffff', '16', '90', '6020', '01', '90', '92', '91', '90', '80', '35', '90', '6020', '01', '90', '92', '91', '90', '80', '35', '90', '6020', '01', '90', '92', '91', '90', '80', '35', '90', '6020', '01', '90', '82', '01', '80', '35', '90', '6020', '01', '91', '90', '91', '92', '93', '91', '92', '93', '90', '50', '50', '50', '6100ca', '56']"
+            },
+            {
+                "block number":6,
+                "index":176,
+                "length":23,
+                "easyJump":true,
+                "resolved":false,
+                "onlyAmode":true,
+                "bytecode":"['5b', '6040', '51', '80', '82', '15', '15', '15', '15', '81', '52', '6020', '01', '91', '50', '50', '6040', '51', '80', '91', '03', '90', 'f3']"
+            },
+            {
+                "block number":7,
+                "index":202,
+                "length":23,
+                "easyJump":true,
+                "resolved":false,
+                "onlyAmode":true,
+                "bytecode":"['5b', '6000', '80', '6000', '90', '54', '90', '610100', '0a', '90', '04', '73ffffffffffffffffffffffffffffffffffffffff', '16', '73ffffffffffffffffffffffffffffffffffffffff', '16', '33', '73ffffffffffffffffffffffffffffffffffffffff', '16', '14', '15', '15', '610127', '57']"
+            },
+            {
+                "block number":8,
+                "index":291,
+                "length":3,
+                "easyJump":true,
+                "resolved":false,
+                "onlyAmode":true,
+                "bytecode":"['6000', '80', 'fd']"
+            },
+            {
+                "block number":9,
+                "index":295,
+                "length":53,
+                "easyJump":false,
+                "resolved":true,
+                "onlyAmode":false,
+                "bytecode":"['5b', '85', '73ffffffffffffffffffffffffffffffffffffffff', '16', '85', '85', '90', '85', '85', '6040', '51', '80', '83', '83', '80', '82', '84', '37', '82', '01', '91', '50', '50', '92', '50', '50', '50', '6000', '6040', '51', '80', '83', '03', '81', '85', '88', '88', 'f1', '93', '50', '50', '50', '50', '90', '50', '95', '94', '50', '50', '50', '50', '50', '56']"
+            },
+            {
+                "block number":10,
+                "index":371,
+                "length":1,
+                "easyJump":false,
+                "resolved":true,
+                "onlyAmode":true,
+                "bytecode":"['00']"
+            },
+            {
+                "block number":11,
+                "index":372,
+                "length":1,
+                "easyJump":false,
+                "resolved":false,
+                "onlyAmode":true,
+                "bytecode":"[]"
+            }
+        ],
+        [
+            {
+                "number of edges":15
+            },
+            {
+                "from":0,
+                "to":65,
+                "type":"EA"
+            },
+            {
+                "from":0,
+                "to":13,
+                "type":"EA"
+            },
+            {
+                "from":13,
+                "to":67,
+                "type":"EA"
+            },
+            {
+                "from":13,
+                "to":65,
+                "type":"EA"
+            },
+            {
+                "from":65,
+                "to":372,
+                "type":"EA"
+            },
+            {
+                "from":67,
+                "to":79,
+                "type":"EA"
+            },
+            {
+                "from":67,
+                "to":75,
+                "type":"EA"
+            },
+            {
+                "from":75,
+                "to":372,
+                "type":"EA"
+            },
+            {
+                "from":79,
+                "to":202,
+                "type":"EA"
+            },
+            {
+                "from":176,
+                "to":372,
+                "type":"EA"
+            },
+            {
+                "from":202,
+                "to":295,
+                "type":"EA"
+            },
+            {
+                "from":202,
+                "to":291,
+                "type":"EA"
+            },
+            {
+                "from":291,
+                "to":372,
+                "type":"EA"
+            },
+            {
+                "from":371,
+                "to":372,
+                "type":"EA"
+            },
+            {
+                "from":295,
+                "to":176,
+                "type":"CB"
+            }
+        ]
+    ]
+}
